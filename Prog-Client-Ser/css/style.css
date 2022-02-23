@@ -1,0 +1,71 @@
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+#contenedor{
+    width: 70%;
+    margin: 0px auto;
+    border: 5px solid black;
+}
+
+header{
+    float: left;
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+nav{
+  float: left;
+  background-color: Purple;
+  height: 50px;
+  width: 100%;
+  color:white;
+  line-height: 0px;
+}
+
+nav ul li{
+  margin: 10px;
+  float: left;
+}
+
+nav ul li a{
+    color: white;
+}
+
+#Contenido{
+  width: 80%;
+  text-align: center;
+  float: left;
+  min-height: 500px;
+  background-color: green;
+
+}
+
+aside{
+  width: 20%;
+  text-align: center;
+  float: left;
+  min-height: 500px;
+  line-height: 100px;
+  background-color: orange;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+
+}
+.componerSalto{
+  clear: both;
+}
